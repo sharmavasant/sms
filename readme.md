@@ -1,5 +1,5 @@
 
-# SCHOOL-MANAGEMENT-SYSTEM
+# SCHOOL-MANAGEMENT-SYSTEM CUM NOTIFICATION PORTAL
 This site acts as a school management portal as well as a class notification portal. It helps in managing classes, sections for both students and teachers. Moreover it provides information about upcoming events. This site helps in saving time by giving timely notification about future classes.
 
 ## Running Tests
