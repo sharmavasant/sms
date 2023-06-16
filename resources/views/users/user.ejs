@@ -1,0 +1,65 @@
+<table class="w-full table-auto bg-white">
+    <p class="text-center font-bold text-lg">Students Schedule</p>
+    <thead>
+        <tr>
+            <th class="px-4 py-2 text-left">Name</th>
+            <th class="px-4 py-2 text-left">Class</th>
+            <th class="px-4 py-2 text-left">Section</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% students.forEach((student) => { %>
+        <tr>
+            <td class="border px-4 py-2">
+                <%= student.name %>
+            </td>
+            <td class="border px-4 py-2">
+                <%= student.cl %>
+            </td>
+            <td class="border px-4 py-2">
+                <%= student.section %>
+            </td>
+        </tr>
+        <% }) %>
+    </tbody>
+</table>
+
+<table class="w-full table-auto bg-white">
+    <p class="text-center font-bold text-lg">Teachers Schedule</p>
+    <thead>
+        <tr>
+            <th class="px-4 py-2 text-left">Name</th>
+            <th class="px-4 py-2 text-left">Subject</th>
+            <th class="px-4 py-2 text-left">Class</th>
+            <th class="px-4 py-2 text-left">Section</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% teachers.forEach((teacher) => { %>
+        <tr>
+            <td class="border px-4 py-2">
+                <%= teacher.name %>
+            </td>
+            <td class="border px-4 py-2">
+                <%= teacher.subject %>
+            </td>
+            <td class="border px-4 py-2">
+                <%= teacher.cl %>
+            </td>
+            <td class="border px-4 py-2">
+                <%= teacher.section %>
+            </td>
+        </tr>
+        <% }) %>
+    </tbody>
+</table>
+
+<form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+<div class="flex justify-center">
+
+    <a class="inline-block align-baseline font-bold text-lg text-red-500 ml-20 bg-black rounded-full p-2 pl-4 pr-4" href="events">
+        Go to see upcoming Events
+    </a>
+
+</div>
+</form>

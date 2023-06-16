@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "new-project",
+			"path": "../../../Users/sharm/OneDrive/Desktop/new-project"
+		},
+		{
+			"name": "coverage",
+			"path": "../../../Users/sharm/OneDrive/Desktop/mental health/free-version-video-streaming-website/free-version-video-streaming-website/coverage"
+		},
+		{
+			"name": "public",
+			"path": "../../../Users/sharm/OneDrive/Desktop/mental health/free-version-video-streaming-website/free-version-video-streaming-website/public"
+		},
+		{
+			"name": "node_modules",
+			"path": "../../../Users/sharm/OneDrive/Desktop/mental health/free-version-video-streaming-website/free-version-video-streaming-website/node_modules"
+		},
+		{
+			"name": "views",
+			"path": "../../../Users/sharm/OneDrive/Desktop/mental health/free-version-video-streaming-website/free-version-video-streaming-website/views"
+		}
+	],
+	"settings": {}
+}
