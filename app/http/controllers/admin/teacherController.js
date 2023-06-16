@@ -7,13 +7,15 @@ function teacherController() {
         },
 
         postTeacher(req, res) {
-            const { name, subject, cl, section } = req.body
+            const { name, subject, cl, section, time, date } = req.body
             //new teacher
             const teacher = new Teacher({
                 name,
                 subject,
                 cl,
-                section
+                section,
+                time,
+                date
             })
 
             teacher.save().then((teacher) => {

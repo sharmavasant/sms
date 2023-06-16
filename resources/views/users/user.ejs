@@ -5,6 +5,8 @@
             <th class="px-4 py-2 text-left">Name</th>
             <th class="px-4 py-2 text-left">Class</th>
             <th class="px-4 py-2 text-left">Section</th>
+            <th class="px-4 py-2 text-left">Time</th>
+            <th class="px-4 py-2 text-left">Date</th>
         </tr>
     </thead>
     <tbody>
@@ -19,6 +21,12 @@
             <td class="border px-4 py-2">
                 <%= student.section %>
             </td>
+            <td class="border px-4 py-2">
+                <%= student.time %>
+            </td>
+            <td class="border px-4 py-2">
+                <%= student.date %>
+            </td>
         </tr>
         <% }) %>
     </tbody>
@@ -32,6 +40,8 @@
             <th class="px-4 py-2 text-left">Subject</th>
             <th class="px-4 py-2 text-left">Class</th>
             <th class="px-4 py-2 text-left">Section</th>
+            <th class="px-4 py-2 text-left">Time</th>
+            <th class="px-4 py-2 text-left">Date</th>
         </tr>
     </thead>
     <tbody>
@@ -48,6 +58,12 @@
             </td>
             <td class="border px-4 py-2">
                 <%= teacher.section %>
+            </td>
+            <td class="border px-4 py-2">
+                <%= teacher.time %>
+            </td>
+            <td class="border px-4 py-2">
+                <%= teacher.date %>
             </td>
         </tr>
         <% }) %>

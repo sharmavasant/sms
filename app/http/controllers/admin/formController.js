@@ -7,11 +7,13 @@ function formController() {
         },
 
         postStudent(req, res) {
-            const { name, cl, section} = req.body
+            const { name, cl, time, date, section} = req.body
             //new student
             const student = new Student({
                 name,
                 cl,
+                time,
+                date,
                 section
             })
 
